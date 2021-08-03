@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{7024df0e-1217-405e-bca3-036f80b6dda8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Private">
+      <UniqueIdentifier>{1555bbef-4cd5-4bf6-8224-78cc1aaaaf6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Public">
+      <UniqueIdentifier>{ca2b3aaa-6b80-47fb-8a7e-9ffc57675a79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Source\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Source\Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
